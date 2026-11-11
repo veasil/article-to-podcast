@@ -44,7 +44,7 @@ python scripts/tts.py --file script.txt --out episode.mp3 --engine edge-tts --vo
 
 当前 RSS 生成器属于早期实现：日期字符串未转换为 RFC 822，未自动补齐完整频道元信息，重复执行也不会按 episode 去重。上线前需要检查或修正这些字段，不能仅凭 XML 写入成功判断播客客户端兼容。
 
-一个现有托管实例是 [podcast-host](https://github.com/veasil/podcast-host)：生成工具和节目资产分别维护。
+可以在 [podcast-host](https://github.com/veasil/podcast-host) 查看节目文件，或用 [RSS 地址](https://veasil.github.io/podcast-host/podcast.xml) 订阅现有节目。生成工具和节目资产分别维护。
 
 ## 目录
 
